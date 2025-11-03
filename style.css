@@ -1,0 +1,80 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+    color: #000000;
+    background-image: url("https://images.unsplash.com/photo-1572537577590-ac6a88150100?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+#principal {
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.377);
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #193686;
+    text-align: center;
+}
+
+h2 {
+    color: #2a0d94;
+    text-align: center;
+}
+
+.descripcion p {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.razones ul {
+    background-color: #dde00a31;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.razones li {
+    margin-bottom: 8px;
+}
+
+.resaltado {
+    font-weight: bold;
+    color: #ffe02f7c;
+}
+
+.requisitos table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #7fadc76e;
+}
+
+.requisitos th {
+    background-color: #278b4e;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.requisitos td {
+    border: 1px solid #dadada;
+    padding: 8px;
+    text-align: left;
+}
+
+.imagen {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.imagen img {
+    border-radius: 10px;
+    width: 400px;
+    height: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
